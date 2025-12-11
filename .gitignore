@@ -1,0 +1,45 @@
+# BỎ QUA TẤT CẢ FILE KHÔNG PHẢI CODE
+
+# Build / Output
+dist/
+build/
+out/
+release/
+bin/
+obj/
+.cache/
+temp/
+tmp/
+
+# Node
+node_modules/
+
+# Python build
+__pycache__/
+*.pyc
+*.pyo
+
+# Các loại FILE NẶNG nên loại bỏ
+*.exe
+*.dll
+*.pak
+*.pkg
+*.pyz
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mov
+*.avi
+*.iso
+*.tar
+*.gz
+
+# IDE files
+.vscode/
+.idea/
+*.log
+
+# System files
+Thumbs.db
+.DS_Store
