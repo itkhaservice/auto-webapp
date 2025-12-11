@@ -333,8 +333,6 @@ import logging
 # --- VÍ DỤ CẤU HÌNH VÀ HÀM HỖ TRỢ LÙI THÁNG ---
 # Giả sử BASE_DIR đã được định nghĩa
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-
 def get_previous_month(month_str):
     """Chuyển đổi chuỗi MM/YYYY thành đối tượng datetime và lùi lại 1 tháng."""
     try:
@@ -348,8 +346,6 @@ def get_previous_month(month_str):
         return f"{new_month:02d}/{new_year}"
     except ValueError:
         return None
-
-
 # --- HÀM CHÍNH TỰ ĐỘNG HÓA ---
 def test_xoa_du_lieu_bao_phi_da_thanh_toan(page: Page):
     excel_path = os.path.join(BASE_DIR, "data.xlsx")
